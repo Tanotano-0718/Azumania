@@ -1,0 +1,1 @@
+D_text(x,y,fa_middle,fa_center,"開始",GameFont);
