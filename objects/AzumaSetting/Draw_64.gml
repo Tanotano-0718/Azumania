@@ -1,4 +1,4 @@
 if(state == "idle" && instance_exists(EnemySetting)){
-draw_line(x,y,target.x,target.y);
-draw_text(x,y,arctan2(target.y,target.x));
+draw_line_color(x,y,target.x,target.y,c_red,c_red);
+//draw_text(x,y,point_direction(x,y,target.x,target.y));
 }

@@ -1,1 +1,1 @@
-D_text(x,y,fa_center,fa_middle,"Exit",ButtonFont);
+D_text(x,y,fa_center,fa_middle,"やめる",ButtonFont);

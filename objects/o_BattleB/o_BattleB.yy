@@ -5,16 +5,6 @@
     "name": "o_BattleB",
     "eventList": [
         {
-            "id": "02e76710-edc8-4ba6-bd00-d18734f62702",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "f8895f0e-b78d-4190-8f8a-5932d2449057"
-        },
-        {
             "id": "5dc8f7de-8f44-4e6a-9738-43432c4f9cf8",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c013428b-f653-4fea-bd1f-737159d117a4",
+    "spriteId": "5d4902da-47bc-412d-a419-672cdc672d2c",
     "visible": true
 }

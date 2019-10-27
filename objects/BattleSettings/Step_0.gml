@@ -1,4 +1,4 @@
-if(point_in_rectangle(mouse_x,mouse_y,0,120,1920,840)){
+if(point_in_rectangle(mouse_x,mouse_y,0,160,1920,840)){
 	if(mouse_check_button_pressed(mb_left)){
 			switch(global.generate){
 				case o_Flame1:
@@ -33,4 +33,20 @@ if(point_in_rectangle(mouse_x,mouse_y,0,120,1920,840)){
 				break;
 			}
 	}
+}
+
+//gameclear
+if(!instance_exists(EnemySetting) && cnt == 0){
+	instance_deactivate_object(AzumaSetting);
+	instance_create_depth(room_width/2,room_height/2,depth,o_gameclear);
+	cnt++;
+}
+
+
+//whenbattle
+if(global.battle){
+	with(o_AzumaNumBase){
+		o_AzumaNumBase.y += 4;
+	}
+	global.generate = o_NULL;
 }

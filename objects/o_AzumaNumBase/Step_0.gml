@@ -4,3 +4,7 @@ if(point_in_rectangle(mouse_x,mouse_y,x-60,y-60,x+60,y+60)){
 			y -= 60;
 	}
 }
+
+if(y > room_height){
+	instance_destroy();
+}

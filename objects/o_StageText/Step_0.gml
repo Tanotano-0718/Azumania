@@ -1,4 +1,4 @@
-if(point_in_circle(mouse_x,mouse_y,x,y,192)){
+if(point_in_circle(mouse_x,mouse_y,x,y,60)){
 	if(mouse_check_button_pressed(mb_left)){
 		switch(real(Stage_Name)){
 			case 1: room_goto(Stage1);

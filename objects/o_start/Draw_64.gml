@@ -1,1 +1,1 @@
-D_text(x,y,fa_center,fa_middle,"Start",ButtonFont);
+D_text(x,y,fa_center,fa_middle,"はじめる",ButtonFont);

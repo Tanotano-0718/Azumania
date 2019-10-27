@@ -26,7 +26,15 @@ if(target == noone){
 //進行
 if(global.battle && state == "idle"){
 if(target != noone){
-direction = point_direction(x,y,target.x,target.y);
+	theta = point_direction(x,y,target.x,target.y);
+	if(theta > 45 && theta < 90){
+		direction = 100;
+	}else if(theta < 315 && theta > 270){
+		direction = 260;
+	}else{
+		direction = theta;
+	}
+
 speed = Aspeed;
 		}
 	}else{

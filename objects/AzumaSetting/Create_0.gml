@@ -1,5 +1,3 @@
-
-
 state = "idle";
 
 attack = false;
