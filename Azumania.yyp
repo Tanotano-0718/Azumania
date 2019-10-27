@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "268add0c-c78d-4d4f-a715-5938aad38820",
+            "Value": {
+                "id": "6b978440-da4f-4bb4-8c4a-6d074ca208ae",
+                "resourcePath": "objects\\o_azumastatus\\o_azumastatus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "28a372d2-5db6-44bd-99c7-f6857d63f494",
             "Value": {
                 "id": "ab5add22-66e3-4540-8da3-b6106e90c87d",
@@ -131,6 +139,14 @@
             "Value": {
                 "id": "975618b6-31ce-4046-9d35-625c6f60e75a",
                 "resourcePath": "fonts\\TitleFont\\TitleFont.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "2a64fa4d-f16d-4d44-958a-5a21840ce877",
+            "Value": {
+                "id": "ae2232f4-403b-4df9-bc7d-8566e07b6300",
+                "resourcePath": "fonts\\DamageFont\\DamageFont.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -380,6 +396,14 @@
                 "id": "581b55de-c7ef-4462-9a20-8e483f40192c",
                 "resourcePath": "sprites\\________\\________.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6d2fbde4-a30c-4fc0-8994-cf951b65fbc4",
+            "Value": {
+                "id": "986da5da-ed92-4473-aebf-5dfd1aa1df51",
+                "resourcePath": "views\\6d2fbde4-a30c-4fc0-8994-cf951b65fbc4.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -963,6 +987,14 @@
             "Value": {
                 "id": "8045e044-6585-4762-b922-6f10c41cded9",
                 "resourcePath": "objects\\o_refreshB\\o_refreshB.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e4cc0108-0aa7-4263-b908-df2918477e43",
+            "Value": {
+                "id": "c278f56a-7508-4b26-8f26-9f04015b2f51",
+                "resourcePath": "objects\\o_damage\\o_damage.yy",
                 "resourceType": "GMObject"
             }
         },

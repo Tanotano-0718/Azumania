@@ -1,5 +1,6 @@
 target = instance_nearest(x,y,EnemySetting);
 
+
 switch(state){
 	case "idle":
 	attack = false;
