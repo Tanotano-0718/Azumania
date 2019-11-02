@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "23b56b08-f96f-4cb6-945f-4bd585aa1edc",
+            "Value": {
+                "id": "df0c148e-ef7f-40e9-a135-6be76ca00c95",
+                "resourcePath": "views\\23b56b08-f96f-4cb6-945f-4bd585aa1edc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "246807c8-30e0-482d-89e4-c3ba0926ae13",
             "Value": {
                 "id": "8ca7ccb8-26ae-4c8e-8248-464df460fa32",
@@ -244,6 +252,22 @@
                 "id": "9fcd814b-81d7-4890-8b24-d4e2e8864433",
                 "resourcePath": "sprites\\s_nomalatk\\s_nomalatk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3f16c134-bd8f-47b8-8426-9aabd72dee65",
+            "Value": {
+                "id": "b6dc8cd1-cd7c-4c47-9f15-cf3829a995ad",
+                "resourcePath": "sprites\\s_Devilweapon\\s_Devilweapon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "43cbdac9-680d-4165-b3b0-fc844c6451fb",
+            "Value": {
+                "id": "293c2408-ac70-420b-b0d9-16d7376062d4",
+                "resourcePath": "objects\\o_heal\\o_heal.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -391,6 +415,14 @@
             }
         },
         {
+            "Key": "638a2439-51ef-4a2d-adb3-d2180dda329a",
+            "Value": {
+                "id": "461df031-b6ae-4dba-ab96-e2c9b886b80b",
+                "resourcePath": "objects\\o_Devilweapon\\o_Devilweapon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "64bd6e09-47a7-4eb3-9e99-7368184470b1",
             "Value": {
                 "id": "e8c3db6c-b032-42dd-bd16-90441def975a",
@@ -403,6 +435,22 @@
             "Value": {
                 "id": "e3580257-1699-490f-b447-b0ffa356cb15",
                 "resourcePath": "objects\\o_elem3\\o_elem3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "68cb105b-6c59-4872-af76-1bf3a2110f35",
+            "Value": {
+                "id": "557c1fb6-e79c-4114-acd3-53d515ebe87d",
+                "resourcePath": "objects\\o_weapon\\o_weapon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6974781f-e386-4db1-a7fc-64e0ee5f49cf",
+            "Value": {
+                "id": "55fbda2c-b4ab-4353-b16a-ba3762173caf",
+                "resourcePath": "objects\\o_Angelweapon\\o_Angelweapon.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -711,6 +759,14 @@
             }
         },
         {
+            "Key": "ac0ee6d4-f1f8-4936-bb01-f91042b3e0a5",
+            "Value": {
+                "id": "cc776a19-66ae-4d3e-ad89-158cf87dc5b5",
+                "resourcePath": "views\\ac0ee6d4-f1f8-4936-bb01-f91042b3e0a5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "adb05e96-de4a-415f-a86b-86a3ac16b7f7",
             "Value": {
                 "id": "0fed7166-203d-44f6-80e8-cfd40b648565",
@@ -919,6 +975,14 @@
             }
         },
         {
+            "Key": "d1fcc718-e14c-44ba-9692-9e346eff1092",
+            "Value": {
+                "id": "b44d6b7a-6d8f-42f9-b64f-212a6901f0e8",
+                "resourcePath": "sprites\\s_Angelweapon\\s_Angelweapon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d23fd125-54a0-4f80-87a3-c6a0f361434d",
             "Value": {
                 "id": "3029919a-469e-46d5-88ee-ec9e445cd02c",
@@ -1027,6 +1091,14 @@
             "Value": {
                 "id": "8045e044-6585-4762-b922-6f10c41cded9",
                 "resourcePath": "objects\\o_refreshB\\o_refreshB.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e4404912-8c1f-4468-9a79-acd0532b5028",
+            "Value": {
+                "id": "5b0ada4c-0caf-4901-88c0-48d68f37e510",
+                "resourcePath": "objects\\o_sandbag\\o_sandbag.yy",
                 "resourceType": "GMObject"
             }
         },

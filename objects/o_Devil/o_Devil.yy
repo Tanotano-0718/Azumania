@@ -5,7 +5,17 @@
     "name": "o_Devil",
     "eventList": [
         {
-            "id": "0080722b-8c9a-496e-a44f-92d2d8f38297",
+            "id": "ea4dde4d-7567-408d-81dc-22e3d40bc2ba",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "df7d407b-c3e0-4c43-a205-45716090903b"
+        },
+        {
+            "id": "0c886ad0-bed3-420c-90cb-227c150aecd3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,18 +25,43 @@
             "m_owner": "df7d407b-c3e0-4c43-a205-45716090903b"
         },
         {
-            "id": "ea4dde4d-7567-408d-81dc-22e3d40bc2ba",
+            "id": "070e0373-eed5-4204-a5d1-d6ce165693e0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
+            "eventtype": 2,
             "m_owner": "df7d407b-c3e0-4c43-a205-45716090903b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
+    "overriddenProperties": [
+        {
+            "id": "885c29ef-9a44-489c-b6e1-939a4b1868ac",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "226ce9e1-b8d9-4445-b6f5-12e6f51c16cc",
+            "propertyId": "68979a24-206f-49f5-a4ef-2bc7eeace540",
+            "value": "60"
+        },
+        {
+            "id": "fb52a667-3644-41a4-a333-77e55c258098",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "226ce9e1-b8d9-4445-b6f5-12e6f51c16cc",
+            "propertyId": "391057ca-6ba9-49cc-bb1f-9d2da91aa2d1",
+            "value": "4"
+        },
+        {
+            "id": "6617c10c-3ffa-4486-bba7-785a21aff726",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "226ce9e1-b8d9-4445-b6f5-12e6f51c16cc",
+            "propertyId": "44fea56d-8f3b-428a-944e-c8680c9164fb",
+            "value": "8"
+        }
+    ],
     "parentObjectId": "226ce9e1-b8d9-4445-b6f5-12e6f51c16cc",
     "persistent": false,
     "physicsAngularDamping": 0.1,

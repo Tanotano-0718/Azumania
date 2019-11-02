@@ -1,6 +1,10 @@
 /// @description Insert description here
-// You can write your code in this editor
 sprite_index = s_flower;
-// Inherit the parent event
-event_inherited();
 
+target = instance_nearest(x,y,AzumaSetting);
+state = "idle";
+
+attack = false;
+
+//攻撃
+alarm[0] = 60;

@@ -11,14 +11,10 @@ switch(state){
 	break
 }	
 
+//次の追尾をはじめる
 
 
-
-
-if(state == "idle" && attack){
-attack = false;
-}
-
+//タゲがいなくても解除
 if(target == noone){
 	state = "idle"
 }
@@ -27,25 +23,21 @@ if(target == noone){
 if(global.battle && state == "idle"){
 if(target != noone){
 	theta = point_direction(x,y,target.x,target.y);
-	if(theta > 45 && theta < 90){
-		direction = 100;
-	}else if(theta < 315 && theta > 270){
-		direction = 260;
+	
+	if(theta > 45 && theta < 100){
+		direction = 110;
+	}else if(theta < 315 && theta > 260){
+		direction = 250;
 	}else{
 		direction = theta;
 	}
 
-speed = Aspeed;
+	speed = Aspeed;
 		}
-	}else{
-		speed = 0;
+}else{
+	speed = 0;
 }
 
-if(state == "idle"){
-	attack = false;
-}else if(state == "battle"){
-	attack = true;
-}
 
 if(x>room_width){
 	instance_destroy();

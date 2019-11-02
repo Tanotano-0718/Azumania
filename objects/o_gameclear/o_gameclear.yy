@@ -5,12 +5,12 @@
     "name": "o_gameclear",
     "eventList": [
         {
-            "id": "f2fea645-c253-4cca-bc52-ad293d240744",
+            "id": "0a5c59f1-c3e8-4238-b8df-7a251fa636c5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 64,
             "eventtype": 8,
             "m_owner": "3c005cbd-433f-4c0e-ba99-55c8f408e963"
         }
