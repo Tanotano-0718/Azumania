@@ -25,11 +25,31 @@
             "m_owner": "97e3c661-f486-4657-94a1-c2251dd8abb1"
         },
         {
-            "id": "e2ca68e9-501b-4fa8-8458-4bf2ff8de2d9",
+            "id": "f809ea24-0b0b-4ea5-84b2-ad82747433b3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "68cb105b-6c59-4872-af76-1bf3a2110f35",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "97e3c661-f486-4657-94a1-c2251dd8abb1"
+        },
+        {
+            "id": "c91b318f-171f-4aa9-bf01-bc923d847d1f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "97e3c661-f486-4657-94a1-c2251dd8abb1"
+        },
+        {
+            "id": "19ea658a-9bdf-4c68-b936-fcdd91ed87b0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "226ce9e1-b8d9-4445-b6f5-12e6f51c16cc",
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "97e3c661-f486-4657-94a1-c2251dd8abb1"
@@ -64,6 +84,34 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "Ehp",
+            "varType": 0
+        },
+        {
+            "id": "3ac8a3ab-657e-47fc-bccc-8b0dc928828f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "Espeed",
+            "varType": 0
+        },
+        {
+            "id": "d1153006-0ddf-48f3-876f-ec49fc93cb23",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "Eatk",
             "varType": 0
         }
     ],

@@ -2,7 +2,7 @@
     "id": "e4cc0108-0aa7-4263-b908-df2918477e43",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_damage",
+    "name": "o_damage_to_Enemy",
     "eventList": [
         {
             "id": "d1556197-b821-4b61-a329-62f17d38887b",
@@ -62,7 +62,20 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        
+        {
+            "id": "8e2dc921-416e-4603-be29-1873b5ff7908",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "damages",
+            "varType": 0
+        }
     ],
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",

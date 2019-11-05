@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "060a835f-6c04-480e-bdfd-e70bf8962765",
+            "Value": {
+                "id": "8e71bd44-b92a-439f-b085-73794b0c9a4d",
+                "resourcePath": "views\\060a835f-6c04-480e-bdfd-e70bf8962765.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0db26756-5823-4407-b7fd-36de62964d7b",
             "Value": {
                 "id": "4d0932d6-1ce0-4e78-a3b2-2cd3f4d44d73",
@@ -263,6 +271,14 @@
             }
         },
         {
+            "Key": "3f9c6bc9-fb27-4a30-a8d3-e23eab94671a",
+            "Value": {
+                "id": "eb8ef127-4c31-43f6-8acf-c6b8f6994931",
+                "resourcePath": "objects\\o_screen_credit\\o_screen_credit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "43cbdac9-680d-4165-b3b0-fc844c6451fb",
             "Value": {
                 "id": "293c2408-ac70-420b-b0d9-16d7376062d4",
@@ -479,6 +495,14 @@
             }
         },
         {
+            "Key": "7529788f-94ab-436d-87f9-a392fe0752ba",
+            "Value": {
+                "id": "8726e276-e481-44a6-bf41-4627d38cdfa7",
+                "resourcePath": "views\\7529788f-94ab-436d-87f9-a392fe0752ba.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "75ff8fdf-2ed6-40d4-b31f-a5096e3cebb6",
             "Value": {
                 "id": "3ff86420-c89c-44a1-a256-bf0b5f7a36c5",
@@ -524,6 +548,14 @@
                 "id": "f9231558-d305-4504-b56a-b88e9b8da348",
                 "resourcePath": "objects\\o_elem5\\o_elem5.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "88d863ab-c75d-4d8a-ac63-614857b95fb1",
+            "Value": {
+                "id": "6ef14e62-e78e-4b38-9a75-61c678a57005",
+                "resourcePath": "sprites\\Credit\\Credit.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1031,6 +1063,14 @@
             }
         },
         {
+            "Key": "dbff861d-7af0-4f98-ac52-3cf275c4e357",
+            "Value": {
+                "id": "5143c73a-a84d-484a-9c05-96cb7a5cbf24",
+                "resourcePath": "objects\\o_damage_to_Azuma\\o_damage_to_Azuma.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ddf7fbc1-2f87-4355-a34a-0597de60a4e4",
             "Value": {
                 "id": "506c00aa-e1d1-41b4-9e36-1013ae55f2bc",
@@ -1114,7 +1154,7 @@
             "Key": "e4cc0108-0aa7-4263-b908-df2918477e43",
             "Value": {
                 "id": "c278f56a-7508-4b26-8f26-9f04015b2f51",
-                "resourcePath": "objects\\o_damage\\o_damage.yy",
+                "resourcePath": "objects\\o_damage_to_Enemy\\o_damage_to_Enemy.yy",
                 "resourceType": "GMObject"
             }
         },
