@@ -25,16 +25,6 @@
             "m_owner": "9507f0a4-bc7b-4a4e-bbd3-e07b961eaf48"
         },
         {
-            "id": "9bbff02d-ce3b-4c74-8dfe-d00c938d7037",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "9507f0a4-bc7b-4a4e-bbd3-e07b961eaf48"
-        },
-        {
             "id": "c13271b4-f0d3-4c45-9bfd-1b9bc6cdcec7",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -43,12 +33,22 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "9507f0a4-bc7b-4a4e-bbd3-e07b961eaf48"
+        },
+        {
+            "id": "68e3ad4f-0d42-4096-a770-bb7ede6773e1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "9507f0a4-bc7b-4a4e-bbd3-e07b961eaf48"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "947c1bd1-c8da-4fa9-9e77-52c1f8bafc9b",
+            "id": "f89cdf9d-ef24-4ed8-a086-c6595c98e903",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "226ce9e1-b8d9-4445-b6f5-12e6f51c16cc",
@@ -56,7 +56,7 @@
             "value": "100"
         },
         {
-            "id": "1964c7a3-2520-49da-a082-9335e6722cf1",
+            "id": "1cb092e5-3986-4b89-a0db-ea243e4cd010",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "226ce9e1-b8d9-4445-b6f5-12e6f51c16cc",
@@ -64,12 +64,12 @@
             "value": "8"
         },
         {
-            "id": "26c0250e-4bfa-4a45-91ec-ea71cb1e71d7",
+            "id": "6f868018-f1b7-4b0a-8f72-b0e0b63a6a56",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "226ce9e1-b8d9-4445-b6f5-12e6f51c16cc",
             "propertyId": "44fea56d-8f3b-428a-944e-c8680c9164fb",
-            "value": "2"
+            "value": "3"
         }
     ],
     "parentObjectId": "226ce9e1-b8d9-4445-b6f5-12e6f51c16cc",

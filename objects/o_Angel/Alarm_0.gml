@@ -1,14 +1,9 @@
-/// @description only Angel
-// You can write your code in this editor
-
-
 if(state == "battle"){
-	if(!instance_exists(o_Angelweapon)){
-	instance_create_depth(x,y-100,depth,o_Angelweapon);
-	}
-	alarm[0] = 60;
+	instance_create_depth(x - 100,y,-100,o_Angelweapon);
+	alarm[0] = 120;
+}else{
+state = "idle"
 }
 
-// Inherit the parent event
-event_inherited();
 
+alarm[0] = 60;

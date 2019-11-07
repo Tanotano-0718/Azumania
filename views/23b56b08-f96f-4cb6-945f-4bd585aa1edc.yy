@@ -8,7 +8,7 @@
         "3f16c134-bd8f-47b8-8426-9aabd72dee65"
     ],
     "filterType": "GMSprite",
-    "folderName": "weapons",
+    "folderName": "Azumaweapons",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

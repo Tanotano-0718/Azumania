@@ -19,6 +19,10 @@ if(target == noone){
 	state = "idle"
 }
 
+if(!place_meeting(x,y,EnemySetting)){
+	state = "idle"
+}
+
 //進行
 if(global.battle && state == "idle"){
 if(target != noone){
@@ -40,6 +44,11 @@ if(target != noone){
 
 
 if(x>room_width){
+	instance_destroy();
+}
+
+
+if(Ahp < 0){
 	instance_destroy();
 }
 

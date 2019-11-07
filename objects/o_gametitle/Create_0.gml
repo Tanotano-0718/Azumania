@@ -1,3 +1,4 @@
+window_set_fullscreen(true);
 center_ = room_width/2;
 
 instance_create_depth(center_,600,depth,o_start);

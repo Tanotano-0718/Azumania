@@ -8,7 +8,7 @@ if(state == "idle" && !attack){
 
 target = instance_nearest(x,y,AzumaSetting);
 
-if(instance_place(x,y,AzumaSetting) != noone){
+if((instance_place(x,y,AzumaSetting) != noone) && (global.battle)){
 	state = "battle"
 }
 

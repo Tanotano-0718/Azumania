@@ -1,33 +1,34 @@
-target1 = instance_nearest(x,y,AzumaSetting);
+target = instance_nearest(x,y,AzumaSetting);
 
 
-switch(state1){
+switch(state){
 	case "idle":
-	attack1 = false;
+	attack = false;
 	break;
 	
 	case "battle":
-	attack1 = true;
+	attack = true;
 	break
 }	
 
-//次の追尾をはじめる
 
 
 //タゲがいなくても解除
-if(target1 == noone){
-	state1 = "idle"
+if(target == noone){
+	state = "idle"
 }
 
+
+
 //進行
-if(global.battle && state1 == "idle"){
-if(target1 != noone){
-	theta = point_direction(x,y,target1.x,target1.y);
+if(global.battle && state == "idle"){
+if(target != noone){
+	theta = point_direction(x,y,target.x,target.y);
 	
-	if(theta > 45 && theta < 100){
-		direction = 110;
-	}else if(theta < 315 && theta > 260){
-		direction = 250;
+	if(theta > 80 && theta < 135){
+		direction = 70;
+	}else if(theta < 280 && theta > 225){
+		direction = 290;
 	}else{
 		direction = theta;
 	}
@@ -45,8 +46,6 @@ if(x>room_width){
 
 
 
-if(Ehp == 0){
+if(Ehp < 0){
 	instance_destroy();
 }
-
-

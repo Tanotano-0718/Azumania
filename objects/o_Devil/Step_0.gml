@@ -8,7 +8,7 @@ if(state == "idle" && !attack){
 
 target = instance_nearest(x,y,EnemySetting);
 
-if(instance_place(x+200,y,EnemySetting) != noone){
+if((instance_place(x+500,y,EnemySetting) != noone) && global.battle){
 	state = "battle"
 }
 
@@ -50,5 +50,9 @@ if(target != noone){
 }
 
 if(x>room_width){
+	instance_destroy();
+}
+
+if(Ahp < 0){
 	instance_destroy();
 }

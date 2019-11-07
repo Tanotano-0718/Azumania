@@ -28,7 +28,7 @@
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "2e1608d5-291e-46e2-ae9c-434dff5f9ec1",
+            "id": "e81643af-7776-48f7-b28c-8ecfaa31bc13",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "226ce9e1-b8d9-4445-b6f5-12e6f51c16cc",
@@ -36,7 +36,7 @@
             "value": "120"
         },
         {
-            "id": "22878157-11c0-4a49-8a92-d137f194f643",
+            "id": "2b94ef51-1be5-4044-a841-1d61d06a5786",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "226ce9e1-b8d9-4445-b6f5-12e6f51c16cc",
@@ -44,7 +44,7 @@
             "value": "9"
         },
         {
-            "id": "4a21f902-651a-496c-b6fd-0a00d75cb502",
+            "id": "a446a1ac-5ef7-4557-a140-2aea4d28ca24",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "226ce9e1-b8d9-4445-b6f5-12e6f51c16cc",

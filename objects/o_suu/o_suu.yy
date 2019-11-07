@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_suu",
     "eventList": [
-        
+        {
+            "id": "34792b80-53be-46f6-9825-d369651c7051",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "5fa0a1d5-6df9-496d-8d85-3d4bb3753e80"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -22,7 +31,7 @@
             "mvc": "1.0",
             "objectId": "97e3c661-f486-4657-94a1-c2251dd8abb1",
             "propertyId": "3ac8a3ab-657e-47fc-bccc-8b0dc928828f",
-            "value": "6"
+            "value": "5"
         },
         {
             "id": "deb46bb7-700a-41cd-940c-3f86f91584b2",

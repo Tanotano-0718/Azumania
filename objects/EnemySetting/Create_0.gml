@@ -1,7 +1,7 @@
-target1 = instance_nearest(x,y,EnemySetting);
-state1 = "idle";
+target = instance_nearest(x,y,AzumaSetting);
+state = "idle";
 
-attack1 = false;
+attack = false;
 
 //攻撃
 alarm[0] = 60;
