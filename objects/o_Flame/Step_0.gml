@@ -6,3 +6,4 @@ if(state == "idle" && !attack){
 // Inherit the parent event
 event_inherited();
 
+

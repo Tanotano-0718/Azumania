@@ -18,9 +18,9 @@ switch(state){
 }	
 
 if(global.battle  && (target != noone)){
-	if(point_in_rectangle(target.x,target.y,x-500,x,y,y)){
+	//if(point_in_rectangle(target.x,target.y,x-500,x,y,y)){
 	state = "battle"
-	}
+	//}
 }
 
 
@@ -30,7 +30,7 @@ if(target == noone){
 }
 
 //進行
-if(global.battle && state == "idle"){
+if(global.battle /*&& state == "idle"*/){
 if(target != noone){
 	theta = point_direction(x,y,target.x,target.y);
 	
